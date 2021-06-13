@@ -12,7 +12,6 @@ function change() {
     document.getElementById('eyeDiv').classList.toggle('is-hidden');
 }
 
-
 $(".card").mousemove(function(event) {
     var eye = $(".eye");
     var x = (eye.offset().left) + (eye.width() / 2);
