@@ -4,10 +4,15 @@ body{
 
 .card {
   background: #F5F5F5	;
-  border-radius: 50px;
   width: 430px;
   height: 665px;
   margin: 10px auto;
+}
+
+#imgAugen {
+	position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .text {
@@ -23,6 +28,7 @@ body{
   line-height: 21px;
   letter-spacing: 0.5px;
   margin: 0px 13px 13px 13px;
+  padding-top: 5px;
 }
 
 .text-title {
@@ -34,4 +40,39 @@ body{
 
 .monster{
   width: 100%;
+  position:relative;
 } 
+
+img {
+  cursor:pointer;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+.eye {
+  display: inline-block;
+  border-radius: 50%;
+  height: 143px;
+  width: 143px;
+  background: #CCC;
+  position: absolute;
+  top: 21.1%;
+  left: 46.5%;
+  background: #0072EB;
+}
+
+.eye:after { /*pupil*/
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 80px;
+  height: 80px;
+  background: #1E1B3C;
+  border-radius: 50%;
+  content: " ";
+}

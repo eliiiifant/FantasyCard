@@ -13,10 +13,12 @@
   </style>
 
 </head>
-
 <body>
   <div class="card">
-    <div class="monster"><img src="./assets/Monster_1.svg" id="img" onclick='change()'/></div>
+    <div class="monster">
+      <img src="./assets/Monster_1.svg" id="img" class="" onclick='change()'/>
+      <img src="./assets/Monster_2.svg" id="img2" class="is-hidden" onclick='change()'/>
+    </div>
       <div class="text">
         <p class="text-untertitel">Name</p>
         <p class="text-title">Fragaria</p>
@@ -24,9 +26,20 @@
         <p class="text-title">shoots with giant strawberries</p>
       </div>
     </div>
+    
+    <section class="move-area is-hidden" id="eyeDiv">
+        <div class='.container'>
+        <div class='eye'></div>
+        <div class='eye'></div>
+      </div>
+    </section>
+
   </div>
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="main.js"></script>
+
 
 </html>
